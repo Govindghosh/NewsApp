@@ -3,8 +3,8 @@ import loading from './loading.gif'
 
 const Spinner = ()=> {
         return (
-            <div className="text-center">
-                <img className="my-3" src={loading} alt="loading" />
+            <div className="text-center ">
+                <img className="my-3 loader" src={loading} alt="loading" />
             </div>
         )
 }
